@@ -1,0 +1,25 @@
+$color-primary: #f4e041;
+$color-primary-bright: #ffe302;
+$color-grey: #b4b4b4;
+$color-bg: #f8f8f8;
+$color-secondary: #00bdd3;
+$color-black: rgba(0, 0, 0, 0.87);
+$color-light-grey: #d0cfcf;
+$color-error: #cb3d40;
+$color-grey-plaseholder: #7e7e7e;
+$color-white: #ffffff;
+$color-dark-white: rgba(255, 255, 255, 0.87);
+
+:export {
+  colorPrimary: $color-primary;
+  colorPrimaryBright: $color-primary-bright;
+  colorGrey: $color-grey;
+  colorBg: $color-bg;
+  colorSecondary: $color-secondary;
+  colorBlack: $color-black;
+  colorLightGrey: $color-light-grey;
+  colorError: $color-error;
+  colorGreyPlaseholder: $color-grey-plaseholder;
+  colorWhite: $color-white;
+  colorDarkWhite: $color-dark-white;
+}

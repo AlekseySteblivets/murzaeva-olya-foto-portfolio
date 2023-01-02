@@ -1,0 +1,79 @@
+@import "../../assets/styles/colors";
+@import "../../assets/styles/sizes";
+@import "../../assets/styles/media";
+@import "../../assets/styles/fonts";
+
+.title {
+  margin: 0;
+  padding-top: 138px;
+  font-size: $size8;
+  line-height: 1;
+  text-align: center;
+  color: $color-black;
+  padding-bottom: 50px;
+}
+
+.item {
+  background-color: $color-white;
+  border-radius: 10px;
+  text-align: center;
+  padding: $size5;
+  margin: 0px;
+  list-style: none;
+  overflow: hidden;
+
+  &:not(:last-child) {
+    margin-bottom: $size5;
+  }
+
+  @include media-s {
+    width: 344px;
+    height: 254px;
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+  @include media-m {
+    width: 282px;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  @include media-l {
+    width: 370px;
+  }
+}
+
+.menu {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  @include media-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.name {
+  margin-top: $size5;
+  margin-bottom: 0px;
+}
+.position {
+  margin-top: $size5;
+  margin-bottom: 0px;
+}
+
+div .tooltip {
+  background-color: $color-black;
+  @include font-bodying;
+}
+
+.mail {
+  cursor: pointer;
+}
+
+.btn {
+  width: 120px;
+}
