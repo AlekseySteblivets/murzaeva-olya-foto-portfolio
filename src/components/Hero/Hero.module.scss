@@ -7,14 +7,10 @@
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
-  font-family: Times New Roman;
+
   padding-bottom: 21px;
   padding-top: 200px;
-
   font-size: $size8;
-  // font-size: calc((42vw - 20vw)/10 + 1.25rem);
-  
-  color: black;
   @include font-heading;
   @include media-s {
     padding-top: 250px;
@@ -30,7 +26,6 @@
   text-transform: uppercase;
   padding-bottom: $size7;
   text-align: center;
-  color: black;
   text-align: center;
   @include font-bodying;
   @include media-s {
@@ -46,6 +41,8 @@
   background-size: cover;
   background-position: center;
   padding-bottom: 70px;
+  color: $color-white;
+  font-family: Times New Roman;
   @include media-s {
     padding-bottom: 88px;
   }
