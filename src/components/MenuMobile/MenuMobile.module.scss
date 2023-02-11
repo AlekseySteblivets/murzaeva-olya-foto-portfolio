@@ -1,46 +1,47 @@
 @import '../../assets/styles/media';
+@import '../../assets/styles/colors';
 
 .menuMobile {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: $color-white;
+  color: $color-black;
 
-   @include media-s {
+  @include media-s {
     left: 80%;
-   }
+  }
 
-   @include media-m {
+  @include media-m {
     display: none;
-   }
+  }
 }
 
 .closeMenuBurger {
-    stroke: black;
-    stroke-width: 1.5;
+  stroke: black;
+  stroke-width: 1.5;
 }
 
 .button {
-    // float: right;
-    margin-left: auto;
-    background-color: inherit;
-    border: none;
-    margin-top: 16px;
-    margin-right: 16px;
-
+  // float: right;
+  margin-left: auto;
+  background-color: inherit;
+  border: none;
+  margin-top: 16px;
+  margin-right: 16px;
 }
 
 .list {
-    text-transform: uppercase;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-top: 80px;
+  text-transform: uppercase;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-top: 80px;
 }
 
 .item {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
