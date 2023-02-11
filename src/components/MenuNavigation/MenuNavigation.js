@@ -4,7 +4,7 @@ export default function MenuNavigation({nameNav1, nameNav2}) {
   return (
     <ul className={styles.list}>
       <li className={styles.item}>
-        <a className={styles.link} href="/">
+        <a className={styles.link} href={`#${nameNav1}`}>
         {nameNav1}
         </a>
       </li>
