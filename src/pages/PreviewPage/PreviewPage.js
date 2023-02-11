@@ -2,6 +2,8 @@ import Container from '../../components/Container';
 import Navigation from '../../components/Navigation';
 import LayoutSection from '../../views/LayoutSection';
 import Hero from '../../components/Hero';
+
+import styles from './PreviewPage.module.scss'
 // import UserCards from '../../components/UserCards';
 // import RegisterUserForm from '../../forms/RegisterUserForm';
 
@@ -23,7 +25,7 @@ const pageViews = [
 export default function PreviewPage() {
   return (
     <>
-      <LayoutSection element="header">
+      <LayoutSection element="header" classNameProps={styles.header}>
         <Container>
           <Navigation />
         </Container>

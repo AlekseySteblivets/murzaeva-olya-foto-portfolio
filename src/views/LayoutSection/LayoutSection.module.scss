@@ -8,22 +8,22 @@
   margin: 0 auto;
   padding-left: $size4;
   padding-right: $size4;
-  // width: 100%;////
-  width: 360px;
+  width: 100%;////
+  // width: 360px;
   // background-color: $color-bg;
   @include media-s {
-    width: 768px;
-    padding-left: $size7;
-    padding-right: $size7;
+    max-width: 1024px;
+    padding-left: $size8;
+    padding-right: $size8;
   }
   @include media-m {
-    width: 1024px;
-    padding-left: 60px;
-    padding-right: 60px;
+    max-width: 1600px;
+    padding-left: $size11;
+    padding-right: $size11;
   }
   @include media-l {
-    width: 2560px;
-    padding-left: 695px;
-    padding-right: 695px;
+   max-width: 100vw;
+    padding-left: $size12;
+    padding-right: $size12;
   }
 }

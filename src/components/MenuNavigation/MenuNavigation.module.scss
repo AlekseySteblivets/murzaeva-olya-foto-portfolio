@@ -1,0 +1,13 @@
+@import '../../assets/styles/media';
+
+.list {
+    display: none;
+    @include media-m {
+        display: flex;
+      }
+
+}
+
+.item {
+    margin-right: 45px;
+}
