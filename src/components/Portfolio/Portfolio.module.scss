@@ -1,0 +1,33 @@
+@import '../../assets/styles/media';
+
+.item {
+    // height: 254px;
+    max-width: 768px;
+    
+    background-color: #fff;
+    border-radius: 10px;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+
+    @include media-s {
+        max-width: 295spx;
+    }
+    @include media-m {
+        max-width: 485px;
+    }
+    @include media-l {
+        max-width: 600px;
+    }
+
+}
+
+.menu {
+    display: block;
+    @include media-s {
+           display: flex;
+    }
+    justify-content: space-between;
+}

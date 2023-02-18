@@ -4,6 +4,7 @@ import LayoutSection from '../../views/LayoutSection';
 import Hero from '../../components/Hero';
 
 import styles from './PreviewPage.module.scss'
+import Portfolio from '../../components/Portfolio/Portfolio';
 // import UserCards from '../../components/UserCards';
 // import RegisterUserForm from '../../forms/RegisterUserForm';
 
@@ -12,10 +13,10 @@ const pageViews = [
     component: Hero,
     idSection: 'hero',
   },
-  // {
-  //   component: UserCards,
-  //   idSection: "userCards",
-  // },
+  {
+    component: Portfolio,
+    idSection: "portfolio",
+  },
   // {
   //   component: RegisterUserForm,
   //   idSection: "registerUserForm",
