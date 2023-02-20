@@ -1,10 +1,13 @@
 import PreviewPage from './pages/PreviewPage/PreviewPage';
+import { BrowserRouter } from 'react-router-dom';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <PreviewPage />
+      <BrowserRouter>
+        <PreviewPage />
+      </BrowserRouter>
     </div>
   );
 }

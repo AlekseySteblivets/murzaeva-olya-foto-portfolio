@@ -8,8 +8,8 @@ export default function MenuNavigation({nameNav1, nameNav2}) {
         {nameNav1}
         </a>
       </li>
-      <li className="nav-item">
-        <a className={styles.link} href="/">
+      <li className={styles.item}>
+        <a className={styles.link} href={`#${nameNav2}`}>
         {nameNav2}
         </a>
       </li>
