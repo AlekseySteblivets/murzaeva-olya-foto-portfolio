@@ -1,6 +1,5 @@
 import PhotoWorks from '../PhotoWorks';
-import {namesCategory} from '../../utils/namesCategory';
-
+import { namesCategory } from '../../utils/namesCategory';
 
 import styles from './Portfolio.module.scss';
 
