@@ -8,16 +8,16 @@
   text-transform: uppercase;
   text-align: center;
 
-  padding-bottom: 21px;
+  padding-bottom: 70px;
   padding-top: 200px;
-  font-size: $size8;
+  font-size: 26px;
   @include font-heading;
   @include media-s {
     padding-top: 250px;
     width: 380px;
   }
   @include media-m {
-    padding-top: 164px;
+    padding-top: 360px;
   }
 }
 

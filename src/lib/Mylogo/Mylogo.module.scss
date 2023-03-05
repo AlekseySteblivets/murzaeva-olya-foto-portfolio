@@ -1,8 +1,8 @@
 @import '../../assets/styles/media';
 
 .logo {
-    @include media-m {
-        margin-left: 150px;
-      }
- 
+  padding-left: 10px;
+  @include media-m {
+    margin-left: 85px;
   }
+}

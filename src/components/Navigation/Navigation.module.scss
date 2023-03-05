@@ -15,15 +15,14 @@
   @include media-s {
     padding-top: $size10;
     padding-bottom: $size10;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
-  
   // @include media-m {
   //   display: none;
   // }
 }
-
-
 
 // .butNavigation {
 //   display: flex;
@@ -42,8 +41,6 @@
 //   height: 100%;
 //   // background-color: $color-white;
 // }
-
-
 
 // .logoLink {
 //   margin-right: 14px;

@@ -17,10 +17,10 @@ export default function Navigation() {
   return (
     <>
       <nav className={styles.navigation}>
-        <MenuNavigation nameNav1="portfolio" nameNav2="aboutMe" />
+        <MenuNavigation nameNav1="portfolio" nameNav2="about Me" />
         <Mylogo />
         <ButMenuMobile isOpenMenuMobile={isOpenMenuMobile} />
-        <MenuNavigation nameNav1="contacts" nameNav2="price" />
+        <MenuNavigation nameNav1="info" nameNav2="contacts" />
         {isMenuMobile && <MenuMobile isOpenMenuMobile={isOpenMenuMobile} />}
       </nav>
     </>

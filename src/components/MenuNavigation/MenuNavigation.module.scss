@@ -1,14 +1,15 @@
 @import '../../assets/styles/media';
 
 .list {
-    display: none;
-    @include media-m {
-        display: flex;
-      }
-
+  display: none;
+  @include media-m {
+    display: flex;
+  }
 }
 
 .item {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  &:first-child {
     margin-right: 45px;
+  }
 }
